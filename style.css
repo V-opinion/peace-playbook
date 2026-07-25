@@ -70,3 +70,26 @@ footer {
     header h1 { font-size: 1.8em; }
     section { padding: 20px; }
 }
+/* Smaller Top Download Button */
+.top-download {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.download-btn-sm {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #1a5276;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 2px solid #1a5276; /* Outlined style so it doesn't distract from the title */
+    transition: all 0.3s ease;
+}
+
+.download-btn-sm:hover {
+    background-color: #1a5276;
+    color: #ffffff;
+}
